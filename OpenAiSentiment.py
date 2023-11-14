@@ -7,7 +7,7 @@ import time
 import re
 import pandas as pd
 
-openai.api_key ="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"
+openai.api_key = os.environ("OPENAI_KEY")
 
 sentimientos_permitidos = [
         "abandono", "abatimiento", "abrumamiento", "aburrimiento", "abuso", "aceptación",
